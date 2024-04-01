@@ -1,0 +1,24 @@
+1. Database Setup:
+
+Create a MySQL database named registration_db (or replace with your chosen name) 
+using your preferred method (e.g., MySQL Workbench, command line).
+Import the provided SQL commands (Section 1) into your database to create the users table.
+
+
+2. Configuration:
+
+In the app.py file, replace the placeholder values in the db_config dictionary with your 
+actual MySQL database credentials (host, user, password, database name).
+
+
+3. Running the Application:
+
+Open a terminal or command prompt and navigate to the directory containing your app.py and register.html files.
+
+
+4. Accessing the Application:
+
+Open a web browser and visit http://localhost:5000/ (the default development server port).
+You should see the student registration form.
+Fill out the form with your information and submit it.
+Upon successful registration, you should be redirected back to the form with a confirmation message 
